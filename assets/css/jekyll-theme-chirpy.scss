@@ -8,3 +8,8 @@
 ';
 
 /* append your custom style below */
+
+video {
+  max-width: 100%; /* 너비에 맞춰 조정 */
+  height: auto;    /* 비율에 맞게 자동 조정 */
+}

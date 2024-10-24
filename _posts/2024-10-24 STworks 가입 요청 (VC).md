@@ -10,7 +10,7 @@ tags:
 render_with_liquid: true
 mermaid: true
 ---
-VCworks 사용자가 신규 투자 기업에게 STworks 가입 요청을 보내는 방법입니다. 
+VCworks 사용자가 신규 스타트업(피투자기업)에게 STworks 가입 요청을 보내는 방법입니다. 
 
 ## 신규 투자자 STworks 가입 요청하기
 
@@ -30,7 +30,7 @@ VCworks 사용자가 신규 투자 기업에게 STworks 가입 요청을 보내�
 
 ## 자주 묻는 질문
 
-> 투자 기업에 가입 요청 메일을 보낸 적이 없는데, STworks에 가입되어 있다고 합니다.
+> 스타트업(피투자기업)에 가입 요청 메일을 보낸 적이 없는데, STworks에 가입되어 있다고 합니다.
 {: .prompt-tip }
 - 여러 곳의 VC에서 투자를 받는 회사인 경우, VCworks를 사용하는 타 VC에서 STworks 가입 요청을 보내 이미 가입이 되어 있을 수 있습니다. 
 

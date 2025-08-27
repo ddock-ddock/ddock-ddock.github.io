@@ -37,8 +37,8 @@ mermaid: true
   margin-top: 1.5rem;
 }
 .folder-box {
-  background: #1e1e1e;
-  border: 1px solid #333;
+  background: #fff;            
+  border: 1px solid #ddd;
   border-radius: 6px;
   margin-bottom: 1rem;
   overflow: hidden;
@@ -49,20 +49,18 @@ mermaid: true
   padding: 0.75rem 1rem;
   font-weight: 600;
   cursor: pointer;
-  background: #2a2a2a;
-  border-bottom: 1px solid #333;
-}
-.folder-header i {
-  margin-right: 0.5rem;
+  background: #f7f7f7;         
+  border-bottom: 1px solid #ddd;
+  color: #222;
 }
 .folder-header .text-muted {
   margin-left: 0.5rem;
-  color: #aaa;
+  color: #666;
   font-size: 0.9rem;
 }
 .arrow-icon {
   margin-left: auto;
-  color: #aaa;
+  color: #666;
   transition: transform 0.2s ease;
 }
 .folder-header.open .arrow-icon {
@@ -72,23 +70,48 @@ mermaid: true
   list-style: none;
   margin: 0;
   padding: 0;
-  border-top: 1px solid #333;
-}
-.folder-list.hidden {
-  display: none;
+  border-top: 1px solid #ddd;
 }
 .folder-item {
   padding: 0.75rem 1rem;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #ddd;
 }
 .folder-item:last-child {
   border-bottom: none;
 }
 .folder-item a {
-  color: #59afff;
+  color: #0066cc;                 
   text-decoration: none;
 }
 .folder-item a:hover {
   text-decoration: underline;
 }
+
+@media (prefers-color-scheme: dark) {
+  .folder-box {
+    background: #1e1e1e;
+    border: 1px solid #333;
+  }
+  .folder-header {
+    background: #2a2a2a;
+    border-bottom: 1px solid #333;
+    color: #fff;
+  }
+  .folder-header .text-muted {
+    color: #aaa;
+  }
+  .arrow-icon {
+    color: #aaa;
+  }
+  .folder-list {
+    border-top: 1px solid #333;
+  }
+  .folder-item {
+    border-bottom: 1px solid #333;
+  }
+  .folder-item a {
+    color: #59afff;      
+  }
+}
+
 </style>

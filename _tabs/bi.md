@@ -4,8 +4,8 @@ order: 7
 mermaid: true
 ---
 
-- [VCworks 사용자 가이드 (노션)](https://www.notion.so/VCworks-BI-1d89b079772380f093e9cdecee99c52d)
-- [VCworks 데이터셋 가이드 (노션)](https://www.notion.so/VCworks-BI-Dataset-Guide-2309b0797723804d9771f3b4e56bcc95)
+- [VCworks BI 사용자 가이드 (노션)](https://www.notion.so/VCworks-BI-1d89b079772380f093e9cdecee99c52d)
+- [VCworks BI 데이터셋 가이드 (노션)](https://www.notion.so/VCworks-BI-Dataset-Guide-2309b0797723804d9771f3b4e56bcc95)
 
 ---
 ## 예제1 - 막대 차트 (Bar Chart)

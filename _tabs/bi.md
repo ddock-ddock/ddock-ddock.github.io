@@ -26,3 +26,16 @@ mermaid: true
 ---
 ## 예제5 - 상세 분석 기능 (Drill by)
 <div style="position: relative; box-sizing: content-box; max-height: 80vh; max-height: 80svh; width: 100%; aspect-ratio: 1.7777777777777777; padding: 40px 0 40px 0;"><iframe src="https://app.supademo.com/embed/cm9s7nsl306ssdtm78bl00hs8?embed_v=2&utm_source=embed" loading="lazy" title="VCworks BI Demo - 예제5. 고급기능 - Drill by" allow="clipboard-write" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+---
+## 데이터셋 구조 파악
+<div style="position: relative; box-sizing: content-box; max-height: 80vh; max-height: 80svh; width: 100%; aspect-ratio: 1.7777777777777777; padding: 40px 0 40px 0;"><iframe src="https://app.supademo.com/embed/cmfqb728f0qkl130um10nc2vo?embed_v=2&utm_source=embed" loading="lazy" title="VCworks BI Demo - 데이터셋 구조 파악" allow="clipboard-write" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+---
+## 차원과 메트릭 설명
+<div style="position: relative; box-sizing: content-box; max-height: 80vh; max-height: 80svh; width: 100%; aspect-ratio: 1.7777777777777777; padding: 40px 0 40px 0;"><iframe src="https://app.supademo.com/embed/cmfp7revz2aym1d3n08fdcjml?embed_v=2&utm_source=embed" loading="lazy" title="VCworks BI Demo - 차원과 메트릭" allow="clipboard-write" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+---
+## 데이터셋 주의사항
+#### 전체_거래내역 vs 심사역별 상세 투자 현황
+<div style="position: relative; box-sizing: content-box; max-height: 80vh; max-height: 80svh; width: 100%; aspect-ratio: 1.7777777777777777; padding: 40px 0 40px 0;"><iframe src="https://app.supademo.com/embed/cmfp1mn3123y31d3njx313nlo?embed_v=2&utm_source=embed" loading="lazy" title="VCworks BI Demo - 데이터셋 주의사항" allow="clipboard-write" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>

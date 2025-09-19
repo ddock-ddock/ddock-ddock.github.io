@@ -24,7 +24,7 @@ math: true
 ![step3](/assets/img/Wehago_거래처등록.png)
 
 ### 4. 엑셀 버튼을 클릭하여 출력합니다.
-![step3](/assets/img/Wehago_거래처 출력.png)
+![step3](/assets/img/Wehago_거래처출력.png)
 
 ### 5. 다운로드 된 엑셀 파일을 똑똑 측에 전달합니다.
 

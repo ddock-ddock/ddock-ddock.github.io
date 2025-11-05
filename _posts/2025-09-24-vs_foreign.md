@@ -3,7 +3,6 @@ title: 투자심의 - 해외(외화) 투자 관련 가이드
 author: dkdk.kr
 date: 2025-09-24 14:00:00 +0900
 categories:
-  - 투자/회수
   - 투자 심의
 tags:
   - 투심

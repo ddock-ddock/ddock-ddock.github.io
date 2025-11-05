@@ -60,7 +60,6 @@ flowchart TD
         ex0001["회수위원회(표결)"]
         oi0001["출고 운용지시(전자결재)"]
         ex0007["회수관리"]
-        ex0009["회수 전자결재"]
         ex0009a["회수 운용지시(전자결재)"]
         fm0002a["전표입력"]
   end
@@ -103,8 +102,7 @@ flowchart TD
     br0011 --> ex0001
     ex0001 --> oi0001
     oi0001 --> ex0007
-    ex0007 --> ex0009
-    ex0009 --> ex0009a
+    ex0007 --> ex0009a
     ex0009a --> fm0002a
     sa0002 -. 선택적 .-> sa0003
     sa0003 --> pm0001
@@ -143,7 +141,6 @@ flowchart TD
     click ex0001 "{% post_url 2024-07-18-ex0001 %}"
     click oi0001 "{% post_url 2024-07-19-oi0001 %}"
     click ex0007 "{% post_url 2024-07-20-ex0007 %}"
-    click ex0009 "{% post_url 2024-07-21-ex0009 %}"
     click ex0009a "{% post_url 2024-07-22-ex0009a %}"
     click fm0002a "{% post_url 2024-07-23-fm0002a %}"
     click sa0002 "{% post_url 2024-09-11-sa0002 %}"

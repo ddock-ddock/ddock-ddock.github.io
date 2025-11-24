@@ -1,7 +1,7 @@
 ---
 icon: fas fa-user
 order: 4
-indent: true
+sidebar: false
 ---
 
 # 구성원으로 시작하기

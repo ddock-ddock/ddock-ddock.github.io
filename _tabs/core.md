@@ -3,6 +3,63 @@ icon: fas fa-compass
 order: 2
 mermaid: true
 ---
+
+<div class="guide-cards">
+  <a href="/admin-start/" class="guide-card">
+    <i class="fas fa-user-shield"></i>
+    <span>관리자로 시작하기</span>
+  </a>
+  <a href="/member-start/" class="guide-card">
+    <i class="fas fa-user"></i>
+    <span>구성원으로 시작하기</span>
+  </a>
+  <a href="/features/" class="guide-card">
+    <i class="fas fa-book"></i>
+    <span>각 기능별 매뉴얼</span>
+  </a>
+</div>
+
+<style>
+.guide-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.guide-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  min-width: 140px;
+  flex: 1;
+  background: var(--card-bg, #f8f9fa);
+  border: 1px solid var(--card-border-color, #dee2e6);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: var(--text-color, #333);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.guide-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-decoration: none;
+}
+.guide-card i {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--link-color, #0066cc);
+}
+.guide-card span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+}
+</style>
+
+---
+
 VCworks.kr은 똑똑[^dkdk] 주식회사에서 만든 대한민국 Venture Capital ERP Solution입니다.   
 
 ## VC업무의 일반 흐름

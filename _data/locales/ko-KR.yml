@@ -14,10 +14,13 @@ tabs:
   categories: 메뉴별
   tags: 테그별
   archives: 시간별
-  core: 코어 가이드
-  report: 투자자 보고
-  tip: TIP & FAQ
-  bi: 비즈니스인텔리전스
+  updates: 업데이트 소식
+  core: 사용 가이드
+  admin-start: 관리자로 시작하기
+  member-start: 구성원으로 시작하기
+  features: 각 기능별 매뉴얼
+  tip: 자주 묻는 질문
+  bi: BI 이용 가이드
   migration: 마이그레이션
 
 # the text displayed in the search bar & search results

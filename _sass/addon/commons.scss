@@ -802,6 +802,19 @@ $btn-mb: 0.5rem;
       &:not(:first-child) {
         margin-top: 0.25rem;
       }
+
+      /* Indented nav items for sub-menu effect */
+      &.nav-indent {
+        padding-left: 2.5rem;
+
+        a.nav-link {
+          font-size: 90%;
+
+          span {
+            font-size: 85%;
+          }
+        }
+      }
     }
   }
 

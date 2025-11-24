@@ -1,6 +1,6 @@
 ---
 icon: fas fa-compass
-order: 1
+order: 2
 mermaid: true
 ---
 VCworks.kr은 똑똑[^dkdk] 주식회사에서 만든 대한민국 Venture Capital ERP Solution입니다.   

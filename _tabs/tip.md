@@ -1,6 +1,6 @@
 ---
 icon: fas fa-lightbulb
-order: 2
+order: 6
 mermaid: true
 ---
 # VCworks.kr 사용 가이드

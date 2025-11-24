@@ -1,11 +1,11 @@
 ---
-title: 릴리즈 노트 (1.1.0)
+title: Release Note (1.1.0)
 author: dkdk.kr
 date: 2025-10-01 13:00:00 +0800
 categories:
-  - 릴리즈 노트
+  - Release Note
 tags:
-  - 릴리즈노트
+  - release-note
 render_with_liquid: true
 mermaid: true
 ---

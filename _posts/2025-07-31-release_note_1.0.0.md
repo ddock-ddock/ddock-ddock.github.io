@@ -1,5 +1,5 @@
 ---
-title: Release Note (1.0.0)
+title: 1.0.0
 author: dkdk.kr
 date: 2025-07-31 13:00:00 +0800
 categories:

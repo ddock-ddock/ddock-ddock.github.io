@@ -1526,6 +1526,10 @@ search {
     ul {
       li.nav-item {
         @include pl-pr(2.75rem);
+
+        &.nav-indent {
+          padding-left: 3.75rem;
+        }
       }
     }
 

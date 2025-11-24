@@ -806,13 +806,37 @@ $btn-mb: 0.5rem;
       /* Indented nav items for sub-menu effect */
       &.nav-indent {
         padding-left: 2.5rem;
+        position: relative;
+
+        &::before {
+          content: '';
+          position: absolute;
+          left: 1.8rem;
+          top: 0;
+          bottom: 0;
+          width: 1px;
+          background-color: var(--sidebar-muted-color, rgba(255,255,255,0.2));
+        }
 
         a.nav-link {
-          font-size: 90%;
+          padding-top: 0.4rem;
+          padding-bottom: 0.4rem;
+          font-size: 88%;
+
+          i {
+            font-size: 85%;
+            margin-right: 1rem;
+          }
 
           span {
-            font-size: 85%;
+            font-size: 90%;
+            opacity: 0.9;
           }
+        }
+
+        &:hover a.nav-link span,
+        &.active a.nav-link span {
+          opacity: 1;
         }
       }
     }

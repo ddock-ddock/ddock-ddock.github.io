@@ -1,7 +1,7 @@
 ---
 icon: fas fa-book
 order: 5
-sidebar: false
+indent: true
 ---
 
 # 각 기능별 매뉴얼

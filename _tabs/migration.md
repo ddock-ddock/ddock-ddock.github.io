@@ -13,14 +13,14 @@ mermaid: true
     {% assign posts = site.posts | where_exp: "p", "p.tags contains '마이그레이션' and p.tags contains tag" %}
     {% if posts.size > 0 %}
       <div class="folder-box">
-        <div class="folder-header"
+        <div class="folder-header open"
              onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('hidden')">
           <i class="far fa-folder-open fa-fw text-muted"></i>
           {{ tag }} 마이그레이션
           <small class="text-muted">{{ posts | size }} 포스트</small>
           <i class="fas fa-chevron-down arrow-icon"></i>
         </div>
-        <ul class="folder-list hidden">
+        <ul class="folder-list">
           {% for post in posts %}
             <li class="folder-item">
               <a href="{{ post.url | relative_url }}">{{ post.title }}</a>

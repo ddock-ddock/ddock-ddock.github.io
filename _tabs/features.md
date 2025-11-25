@@ -4,10 +4,6 @@ order: 5
 indent: true
 ---
 
-# 각 기능별 매뉴얼
-
-VC Works의 주요 기능별 매뉴얼 목록입니다.
-
 <div class="card categories">
   <!-- 대분류 -->
   <div id="h_0" class="card-header d-flex justify-content-between hide-border-bottom">

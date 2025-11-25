@@ -14,9 +14,6 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">조합</span>
-      <span class="text-muted small font-weight-light">
-        5/8개 매뉴얼
-      </span>
     </span>
     <a href="#l_0" data-bs-toggle="collapse" aria-expanded="false"
        aria-label="h_0-trigger" class="category-trigger hide-border-bottom">
@@ -91,9 +88,6 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">투자/회수</span>
-      <span class="text-muted small font-weight-light">
-        4/6개 매뉴얼
-      </span>
     </span>
     <a href="#l_1" data-bs-toggle="collapse" aria-expanded="false"
        aria-label="h_1-trigger" class="category-trigger hide-border-bottom">
@@ -152,9 +146,6 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">포트폴리오</span>
-      <span class="text-muted small font-weight-light">
-        5/9개 매뉴얼
-      </span>
     </span>
     <a href="#l_2" data-bs-toggle="collapse" aria-expanded="false"
        aria-label="h_2-trigger" class="category-trigger hide-border-bottom">
@@ -229,9 +220,6 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">LP 보고</span>
-      <span class="text-muted small font-weight-light">
-        1/5개 매뉴얼
-      </span>
     </span>
     <a href="#l_3" data-bs-toggle="collapse" aria-expanded="false"
        aria-label="h_3-trigger" class="category-trigger hide-border-bottom">
@@ -270,9 +258,6 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">회계/재무</span>
-      <span class="text-muted small font-weight-light">
-        0/5개 매뉴얼
-      </span>
     </span>
     <a href="#l_4" data-bs-toggle="collapse" aria-expanded="false"
        aria-label="h_4-trigger" class="category-trigger hide-border-bottom">
@@ -311,9 +296,6 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">전자 결재</span>
-      <span class="text-muted small font-weight-light">
-        2/7개 매뉴얼
-      </span>
     </span>
     <a href="#l_5" data-bs-toggle="collapse" aria-expanded="false"
        aria-label="h_5-trigger" class="category-trigger hide-border-bottom">
@@ -360,9 +342,6 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">설정</span>
-      <span class="text-muted small font-weight-light">
-        0/6개 매뉴얼
-      </span>
     </span>
     <a href="#l_6" data-bs-toggle="collapse" aria-expanded="false"
        aria-label="h_6-trigger" class="category-trigger hide-border-bottom">
@@ -405,9 +384,6 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">모바일</span>
-      <span class="text-muted small font-weight-light">
-        0/2개 매뉴얼
-      </span>
     </span>
     <a href="#l_7" data-bs-toggle="collapse" aria-expanded="false"
        aria-label="h_7-trigger" class="category-trigger hide-border-bottom">

@@ -15,7 +15,7 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">조합</span>
       <span class="text-muted small font-weight-light">
-        8개 항목
+        5/8개 매뉴얼
       </span>
     </span>
     <a href="#l_0" data-bs-toggle="collapse" aria-expanded="false"
@@ -26,24 +26,48 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
   <div id="l_0" class="collapse" aria-expanded="false">
     <ul class="list-group">
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">조합 정보</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/fd0001/" class="mx-2">신규조합 추가</a>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">조합원 명부</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/fd0010/" class="mx-2">투자 의무 등록</a>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">조합원 총회</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/fd0013/" class="mx-2">조합 결성 필요 서류</a>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">출자/배분</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/fd0012/" class="mx-2">보수 관리 정보 등록</a>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">투자 현황</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/pr0011/" class="mx-2">조합원 명부/출자 증서/출자 확인서 출력</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/fd0011/" class="mx-2">조합원 명부 등록</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/fd0029/" class="mx-2">조합원 총회</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/fd0006/" class="mx-2">출자/배분 등록</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/oi0002/" class="mx-2">운용지시- 출자운용지시서 상신</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/fd0060/" class="mx-2">지분양도양수 등록</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/fd0004/" class="mx-2">투자 현황</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
@@ -68,7 +92,7 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">투자/회수</span>
       <span class="text-muted small font-weight-light">
-        6개 항목
+        4/6개 매뉴얼
       </span>
     </span>
     <a href="#l_1" data-bs-toggle="collapse" aria-expanded="false"
@@ -79,24 +103,40 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
   <div id="l_1" class="collapse" aria-expanded="false">
     <ul class="list-group">
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">주간 보고</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/wr0003/" class="mx-2">투자심의 - 주간보고</a>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">투자 심의</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/ed0001a/" class="mx-2">투자심의 - 계약품의 및 전자결재</a>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">거래 원장 관리</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/oi0003/" class="mx-2">투자심의 - 투자 운용지시 및 전자결재</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/pm0001/" class="mx-2">투자 변동 관리 - 거래 원장 관리</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/pm0004/" class="mx-2">투자 변동 관리 - 일반거래 등록/조회</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/pm0006/" class="mx-2">투자 변동 관리 - 전환거래 등록/조회</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/pm0008/" class="mx-2">투자 변동 관리 - 인수합병 거래 등록/조회</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
         <span class="mx-2">회수</span>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">운용 지시서</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/oi0001/" class="mx-2">회수 관리 - 출고 운용지시 및 전자결재</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
@@ -113,7 +153,7 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">포트폴리오</span>
       <span class="text-muted small font-weight-light">
-        9개 항목
+        5/9개 매뉴얼
       </span>
     </span>
     <a href="#l_2" data-bs-toggle="collapse" aria-expanded="false"
@@ -128,20 +168,36 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
         <span class="mx-2">포트폴리오 정보</span>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">포트폴리오 연락망</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/br0012/" class="mx-2">영업보고 - 포트폴리오 연락망</a>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">의결</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/sa0002/" class="mx-2">의결 - 의결 응답</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/sa0003/" class="mx-2">의결 - 의결 정보 반영</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
         <span class="mx-2">영업보고</span>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">가치평가</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/pm0300/" class="mx-2">가치평가 - 가치평가</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/pm0301/" class="mx-2">가치평가 - 투자유형별 등록</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/pm0302/" class="mx-2">가치평가 - 재원별 등록</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/pm0303/" class="mx-2">가치평가 - 가치평가 조회</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
@@ -152,12 +208,16 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
         <span class="mx-2">재무제표</span>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">법인 등기부등본 발급</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/pm0200/" class="mx-2">법인 등기부등본 발급</a>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">담당 심사역 관리</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/pm0203/" class="mx-2">법인 등기부등본 정보 반영</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/vs0031/" class="mx-2">담당 심사역 관리</a>
       </li>
     </ul>
   </div>
@@ -170,7 +230,7 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">LP 보고</span>
       <span class="text-muted small font-weight-light">
-        5개 항목
+        1/5개 매뉴얼
       </span>
     </span>
     <a href="#l_3" data-bs-toggle="collapse" aria-expanded="false"
@@ -193,8 +253,8 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
         <span class="mx-2">수시 보고</span>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">보고 전송 내역 조회</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/lc0100/" class="mx-2">LP보고 - 보고 전송 내역 조회</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
@@ -211,7 +271,7 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">회계/재무</span>
       <span class="text-muted small font-weight-light">
-        5개 항목
+        0/5개 매뉴얼
       </span>
     </span>
     <a href="#l_4" data-bs-toggle="collapse" aria-expanded="false"
@@ -252,7 +312,7 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">전자 결재</span>
       <span class="text-muted small font-weight-light">
-        7개 항목
+        2/7개 매뉴얼
       </span>
     </span>
     <a href="#l_5" data-bs-toggle="collapse" aria-expanded="false"
@@ -263,12 +323,12 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
   <div id="l_5" class="collapse" aria-expanded="false">
     <ul class="list-group">
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">품의서 등록</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/ed0100/" class="mx-2">전자결재 - 빈품의서</a>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">품의서 등록</span>
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/ed0100/" class="mx-2">전자결재 - 빈품의서</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
@@ -301,7 +361,7 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">설정</span>
       <span class="text-muted small font-weight-light">
-        6개 항목
+        0/6개 매뉴얼
       </span>
     </span>
     <a href="#l_6" data-bs-toggle="collapse" aria-expanded="false"
@@ -346,7 +406,7 @@ VC Works의 주요 기능별 매뉴얼 목록입니다.
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">모바일</span>
       <span class="text-muted small font-weight-light">
-        2개 항목
+        0/2개 매뉴얼
       </span>
     </span>
     <a href="#l_7" data-bs-toggle="collapse" aria-expanded="false"

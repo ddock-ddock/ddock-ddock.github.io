@@ -1,7 +1,6 @@
 ---
 icon: fas fa-route
 order: 8
-indent: true
 ---
 
 <div class="card categories">

@@ -1,120 +1,99 @@
 ---
 icon: fas fa-route
 order: 8
-mermaid: true
+indent: true
 ---
-{% include lang.html %}
 
-마이그레이션 - 타사 ERP 데이터 추출 가이드
-
-<div class="category-root">
-  {% assign tag_groups = "회계,전자결재" | split: "," %}
-  {% for tag in tag_groups %}
-    {% assign posts = site.posts | where_exp: "p", "p.tags contains '마이그레이션' and p.tags contains tag" %}
-    {% if posts.size > 0 %}
-      <div class="folder-box">
-        <div class="folder-header open"
-             onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('hidden')">
-          <i class="far fa-folder-open fa-fw text-muted"></i>
-          {{ tag }} 마이그레이션
-          <small class="text-muted">{{ posts | size }} 포스트</small>
-          <i class="fas fa-chevron-down arrow-icon"></i>
-        </div>
-        <ul class="folder-list">
-          {% for post in posts %}
-            <li class="folder-item">
-              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
-  {% endfor %}
+<div class="card categories">
+  <!-- 대분류 -->
+  <div id="h_0" class="card-header d-flex justify-content-between hide-border-bottom">
+    <span class="ms-2">
+      <i class="far fa-folder-open fa-fw"></i>
+      <span class="mx-2">회계 마이그레이션</span>
+    </span>
+    <a href="#l_0" data-bs-toggle="collapse" aria-expanded="false"
+       aria-label="h_0-trigger" class="category-trigger hide-border-bottom">
+      <i class="fas fa-fw fa-angle-down"></i>
+    </a>
+  </div>
+  <div id="l_0" class="collapse" aria-expanded="false">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/migration(smartA_slip)/" class="mx-2">Smart A 시스템 계정별원장 데이터 추출 가이드</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/migration(smartA_fist)/" class="mx-2">Smart A 시스템 재무상태표, 손익계산서 데이터 추출 가이드</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/migration(wehago_slip)/" class="mx-2">Wehago 시스템 계정별원장 데이터 추출 가이드</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/migration(wehago_fist)/" class="mx-2">Wehago 시스템 재무상태표, 손익계산서 데이터 추출 가이드</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/migration(wehago_slip2)/" class="mx-2">Wehago 전표 데이터 추출 가이드</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/migration(wehago_slip3)/" class="mx-2">Wehago 계좌 정보 추출 가이드</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/migration(wehago_slip4)/" class="mx-2">Wehago 계정 과목 추출 가이드</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/migration(ecount_slip)/" class="mx-2">ECOUNT 시스템 계정별원장 데이터 추출 가이드</a>
+      </li>
+    </ul>
+  </div>
 </div>
 
-<style>
-.category-root {
-  margin-top: 1.5rem;
-}
-.folder-box {
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  margin-bottom: 1rem;
-  overflow: hidden;
-}
-.hidden {
-  display: none;
-}
-.folder-header {
-  display: flex;
-  align-items: center;
-  padding: 0.75rem 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  background: #f7f7f7;         
-  border-bottom: 1px solid #ddd;
-  color: #222;
-}
-.folder-header .text-muted {
-  margin-left: 0.5rem;
-  color: #666;
-  font-size: 0.9rem;
-}
-.arrow-icon {
-  margin-left: auto;
-  color: #666;
-  transition: transform 0.2s ease;
-}
-.folder-header.open .arrow-icon {
-  transform: rotate(180deg);
-}
-.folder-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  border-top: 1px solid #ddd;
-}
-.folder-item {
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid #ddd;
-}
-.folder-item:last-child {
-  border-bottom: none;
-}
-.folder-item a {
-  color: #0066cc;                 
-  text-decoration: none;
-}
-.folder-item a:hover {
-  text-decoration: underline;
-}
+<div class="card categories">
+  <!-- 대분류 -->
+  <div id="h_1" class="card-header d-flex justify-content-between hide-border-bottom">
+    <span class="ms-2">
+      <i class="far fa-folder-open fa-fw"></i>
+      <span class="mx-2">전자결재 마이그레이션</span>
+    </span>
+    <a href="#l_1" data-bs-toggle="collapse" aria-expanded="false"
+       aria-label="h_1-trigger" class="category-trigger hide-border-bottom">
+      <i class="fas fa-fw fa-angle-down"></i>
+    </a>
+  </div>
+  <div id="l_1" class="collapse" aria-expanded="false">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/migration(hiworks)/" class="mx-2">Hiworks 시스템 전자결재 데이터 추출 가이드</a>
+      </li>
+    </ul>
+  </div>
+</div>
 
-@media (prefers-color-scheme: dark) {
-  .folder-box {
-    background: #1e1e1e;
-    border: 1px solid #333;
-  }
-  .folder-header {
-    background: #2a2a2a;
-    border-bottom: 1px solid #333;
-    color: #fff;
-  }
-  .folder-header .text-muted {
-    color: #aaa;
-  }
-  .arrow-icon {
-    color: #aaa;
-  }
-  .folder-list {
-    border-top: 1px solid #333;
-  }
-  .folder-item {
-    border-bottom: 1px solid #333;
-  }
-  .folder-item a {
-    color: #59afff;      
-  }
-}
-
-</style>
+<div class="card categories">
+  <!-- 대분류 -->
+  <div id="h_2" class="card-header d-flex justify-content-between hide-border-bottom">
+    <span class="ms-2">
+      <i class="far fa-folder-open fa-fw"></i>
+      <span class="mx-2">마이그레이션 검수 가이드</span>
+    </span>
+    <a href="#l_2" data-bs-toggle="collapse" aria-expanded="false"
+       aria-label="h_2-trigger" class="category-trigger hide-border-bottom">
+      <i class="fas fa-fw fa-angle-down"></i>
+    </a>
+  </div>
+  <div id="l_2" class="collapse" aria-expanded="false">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/migration_verification/" class="mx-2">작성 중</a>
+      </li>
+    </ul>
+  </div>
+</div>

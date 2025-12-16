@@ -91,8 +91,8 @@ indent: true
   <div id="l_2" class="collapse" aria-expanded="false">
     <ul class="list-group">
       <li class="list-group-item">
-        <i class="far fa-file-alt fa-fw"></i>
-        <a href="/posts/migration_verification/" class="mx-2">작성 중</a>
+        <i class="far fa-folder fa-fw"></i>
+        <span class="mx-2">작성 중</span>
       </li>
     </ul>
   </div>

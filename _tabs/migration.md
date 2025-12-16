@@ -91,7 +91,7 @@ order: 8
     <ul class="list-group">
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
-        <a href="% post_url 2025-12-16-migration-verification-guide2 %" class="mx-2">2차 마이그레이션 검수 가이드</a>
+        <a href="posts/2025-12-16-migration-verification-guide2" class="mx-2">2차 마이그레이션 검수 가이드</a>
       </li>
     </ul>
   </div>

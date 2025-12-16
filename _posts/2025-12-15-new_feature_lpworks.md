@@ -1,5 +1,5 @@
 ---
-title: 1.0.0
+title: "[New] LP는 스마트한 자산 관리를, 운용사는 업무 효율의 혁신을. ‘LPworks for Personal’"
 author: dkdk.kr
 date: 2025-12-15 13:00:00 +0800
 categories:
@@ -10,10 +10,8 @@ render_with_liquid: true
 mermaid: true
 ---
 
-# **[New] LP는 스마트한 자산 관리를, 운용사는 업무 효율의 혁신을. ‘LPworks for Personal’**
-
 안녕하세요. 운용사와 조합원을 잇는 새로운 소통 채널, **LPworks for Personal** 기능이 오픈되었습니다.  
-이제 반복되는 자료 요청과 엑셀 리포트 작성 대신, LPworks를 통해 조합원에게 능동적인 현황 조회와 히스토리 확인 등 전문적인 관리 경험을 제공해 보세요.!
+이제 반복되는 자료 요청과 엑셀 리포트 작성 대신, LPworks를 통해 조합원에게 능동적인 현황 조회와 히스토리 확인 등 전문적인 관리 경험을 제공해 보세요.
 
 ### 💡 LPworks for Personal이란?  
 출자한 조합의 현황을 직접 조회할 수 있는 **조합원(LP) 전용 서비스**입니다. 단순 조회를 넘어 조합원 총회 관리, 소득공제 신청 등 추후 운용사와 조합원 간의 소통 효율을 극대화하는 것을 목표로 하고 있습니다.  
@@ -56,7 +54,7 @@ mermaid: true
 
 - **모바일 최적화:** PC뿐만 아니라 모바일 앱을 통해서도 운용 현황을 확인할 수 있습니다.
 - **투자 통계 대시보드:** 운용사 단위 현황은 물론, 출자금의 투자 통계(비즈니스 분야, 투자 라운드, 투자 당시 밸류 등)를 직관적인 그래프로 제공합니다.
-  ![](assets/img/Pasted%20image%2020251215184706.png)
+  ![|250](assets/img/Pasted%20image%2020251215184706.png)
 
 지금 바로 LP를 초대하여 조합원들에게 **새로운 투자 관리 경험**을 선물해 보세요.  
 ![:오른쪽을_가리키는_손_모양:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/google-medium/1f449.png) [LPworks 초대 바로가기](https://vcworks.kr/fd0040)  

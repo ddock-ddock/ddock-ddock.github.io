@@ -91,7 +91,7 @@ order: 8
     <ul class="list-group">
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">작성 중</span>
+        <a href="/posts/Migration_VerificationGuide_2/" class="mx-2">2차 마이그레이션 검수 가이드</a>
       </li>
     </ul>
   </div>

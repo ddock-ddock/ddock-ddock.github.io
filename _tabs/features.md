@@ -64,15 +64,11 @@ indent: true
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">투자 의무 달성 현황</span>
+         <a href="/posts/fd0100/" class="mx-2">수익률 관리</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">수익률</span>
-      </li>
-      <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">소득공제</span>
+         <a href="/posts/fd0200/" class="mx-2">조합원 소득공제</a>
       </li>
     </ul>
   </div>
@@ -120,17 +116,17 @@ indent: true
         <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/pm0008/" class="mx-2">투자 변동 관리 - 인수합병 거래 등록/조회</a>
       </li>
-      <li class="list-group-item">
+      <li class="list-group-item"> 
         <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">회수</span>
+        <a href="/posts/ex0001/" class="mx-2">회수 위원회</a>
+      </li>
+      <li class="list-group-item"> 
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/ex0007/" class="mx-2">회수 관리</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/oi0001/" class="mx-2">회수 관리 - 출고 운용지시 및 전자결재</a>
-      </li>
-      <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">설정</span>
       </li>
     </ul>
   </div>
@@ -151,10 +147,6 @@ indent: true
   <div id="l_2" class="collapse" aria-expanded="false">
     <ul class="list-group">
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">포트폴리오 정보</span>
-      </li>
-      <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/br0012/" class="mx-2">영업보고 - 포트폴리오 연락망</a>
       </li>
@@ -165,10 +157,6 @@ indent: true
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/sa0003/" class="mx-2">의결 - 의결 정보 반영</a>
-      </li>
-      <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">영업보고</span>
       </li>
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
@@ -205,6 +193,47 @@ indent: true
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/vs0031/" class="mx-2">담당 심사역 관리</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card categories">
+  <!-- 대분류 -->
+  <div id="h_2" class="card-header d-flex justify-content-between hide-border-bottom">
+    <span class="ms-2">
+      <i class="far fa-folder-open fa-fw"></i>
+      <span class="mx-2">영업보고</span>
+    </span>
+    <a href="#l_2" data-bs-toggle="collapse" aria-expanded="false"
+       aria-label="h_2-trigger" class="category-trigger hide-border-bottom">
+      <i class="fas fa-fw fa-angle-down"></i>
+    </a>
+  </div>
+  <div id="l_2" class="collapse" aria-expanded="false">
+      <li class="list-group-item"> 
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/br0001/" class="mx-2">영업보고 템플릿</a>
+      </li>
+      <li class="list-group-item"> 
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/br0004/" class="mx-2">영업보고 요청</a>
+      </li>
+      <li class="list-group-item"> 
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/br0007/" class="mx-2">영업보고 검수</a>
+      </li>
+      <li class="list-group-item"> 
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/br0008/" class="mx-2">영업보고 AI 검수</a>
+      </li>
+      <li class="list-group-item"> 
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/br0009/" class="mx-2">심사역 의견 작성</a>
+      </li>
+      <li class="list-group-item"> 
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/br0011/" class="mx-2">영업보고 생성</a>
       </li>
     </ul>
   </div>
@@ -348,15 +377,19 @@ indent: true
     <ul class="list-group">
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">회사 정보 관리</span>
+        <a href="/posts/hr0001/" class="mx-2">구성원 등록</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">인사 정보 관리</span>
+        <a href="/posts/se0005/" class="mx-2">사용자 관리</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">거래처 정보 관리</span>
+        <a href="/posts/se0003/" class="mx-2">역할/권한 관리</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/cm0009/" class="mx-2">사용자 작업 이력 조회</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
@@ -365,10 +398,6 @@ indent: true
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
         <span class="mx-2">LPworks 관리</span>
-      </li>
-      <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">사용자 작업 이력 조회</span>
       </li>
     </ul>
   </div>

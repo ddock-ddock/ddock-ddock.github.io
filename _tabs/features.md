@@ -175,14 +175,6 @@ indent: true
         <a href="/posts/pm0303/" class="mx-2">가치평가 - 가치평가 조회</a>
       </li>
       <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">주주 명부</span>
-      </li>
-      <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">재무제표</span>
-      </li>
-      <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/pm0200/" class="mx-2">법인 등기부등본 발급</a>
       </li>
@@ -200,17 +192,18 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_2" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_3" class="card-header d-flex justify-content-between hide-border-bottom">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">영업보고</span>
     </span>
-    <a href="#l_2" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_2-trigger" class="category-trigger hide-border-bottom">
+    <a href="#l_3" data-bs-toggle="collapse" aria-expanded="false"
+       aria-label="h_3-trigger" class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
     </a>
   </div>
-  <div id="l_2" class="collapse" aria-expanded="false">
+  <div id="l_3" class="collapse" aria-expanded="false">
+    <ul class="list-group">
       <li class="list-group-item"> 
         <i class="far fa-folder fa-fw"></i>
         <a href="/posts/br0001/" class="mx-2">영업보고 템플릿</a>
@@ -241,48 +234,10 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_3" class="card-header d-flex justify-content-between hide-border-bottom">
-    <span class="ms-2">
-      <i class="far fa-folder-open fa-fw"></i>
-      <span class="mx-2">LP 보고</span>
-    </span>
-    <a href="#l_3" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_3-trigger" class="category-trigger hide-border-bottom">
-      <i class="fas fa-fw fa-angle-down"></i>
-    </a>
-  </div>
-  <div id="l_3" class="collapse" aria-expanded="false">
-    <ul class="list-group">
-      <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">정기 보고</span>
-      </li>
-      <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">정기 보고 수정</span>
-      </li>
-      <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">수시 보고</span>
-      </li>
-      <li class="list-group-item">
-        <i class="far fa-file-alt fa-fw"></i>
-        <a href="/posts/lc0100/" class="mx-2">LP보고 - 보고 전송 내역 조회</a>
-      </li>
-      <li class="list-group-item">
-        <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">LP보고 설정</span>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<div class="card categories">
-  <!-- 대분류 -->
   <div id="h_4" class="card-header d-flex justify-content-between hide-border-bottom">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
-      <span class="mx-2">회계/재무</span>
+      <span class="mx-2">LP 보고</span>
     </span>
     <a href="#l_4" data-bs-toggle="collapse" aria-expanded="false"
        aria-label="h_4-trigger" class="category-trigger hide-border-bottom">
@@ -291,25 +246,77 @@ indent: true
   </div>
   <div id="l_4" class="collapse" aria-expanded="false">
     <ul class="list-group">
-      <li class="list-group-item">
+      <li class="list-group-item"> 
         <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">기본 정보 설정</span>
+        <a href="/posts/lc0101/" class="mx-2">정기 보고</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">전표/원장</span>
+        <a href="/posts/lp0531/" class="mx-2">운용기관 정보 보고</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">재무제표</span>
+        <a href="/posts/lp0270/" class="mx-2">상장 주식 거래</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">자금 관리</span>
+        <a href="/posts/lp0310/" class="mx-2">투자 기업 부가 정보</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
-        <span class="mx-2">법인 카드</span>
+        <a href="/posts/lp0310/" class="mx-2">투자 기업 부가 정보</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/lp0520/" class="mx-2">운용기관 인력정보</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/lp0510/" class="mx-2">투자기업 신청정보</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/lp0630/" class="mx-2">투자심사 보고</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/lp0600/" class="mx-2">담당심사역 이력</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/lp0590/" class="mx-2">수시 보고</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/lp0550/" class="mx-2">조합원 총회</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/lp0610/" class="mx-2">출자금 납입 요청 계획</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/lp0635/" class="mx-2">투자 계약서 보고</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/lp0681/" class="mx-2">액셀러레이터 보고</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/lp0570/" class="mx-2">관리보수/성과보수</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/lp0620/" class="mx-2">반기 보고</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/lc0100/" class="mx-2">LP보고 - 보고 전송 내역 조회</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/lp0001/" class="mx-2">재원별 보고 LP 설정</a>
       </li>
     </ul>
   </div>
@@ -320,7 +327,7 @@ indent: true
   <div id="h_5" class="card-header d-flex justify-content-between hide-border-bottom">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
-      <span class="mx-2">전자 결재</span>
+      <span class="mx-2">회계/재무</span>
     </span>
     <a href="#l_5" data-bs-toggle="collapse" aria-expanded="false"
        aria-label="h_5-trigger" class="category-trigger hide-border-bottom">
@@ -328,6 +335,96 @@ indent: true
     </a>
   </div>
   <div id="l_5" class="collapse" aria-expanded="false">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0009/" class="mx-2">회계기준 및 회계원장</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0010/" class="mx-2">재원별 회계원장</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0005/" class="mx-2">계정과목</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0011/" class="mx-2">재무제표 양식</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0019/" class="mx-2">마감/이월</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0012/" class="mx-2">표준 계정 연결 관리</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0300/" class="mx-2">자동 전표 설정</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0002/" class="mx-2">전표 입력</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0003/" class="mx-2">분개장 조회</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0021/" class="mx-2">전표 조회</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0015/" class="mx-2">계정별 원장</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0016/" class="mx-2">합계 잔액 시산표</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0018/" class="mx-2">재무상태표</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0017/" class="mx-2">손익계산서</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0008/" class="mx-2">금융 정보 관리</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0020/" class="mx-2">계좌잔액 조회</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/fm0100/" class="mx-2">법인 카드 관리</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-folder fa-fw"></i>
+        <a href="/posts/my0200/" class="mx-2">내 법인 카드 사용 내역</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card categories">
+  <!-- 대분류 -->
+  <div id="h_6" class="card-header d-flex justify-content-between hide-border-bottom">
+    <span class="ms-2">
+      <i class="far fa-folder-open fa-fw"></i>
+      <span class="mx-2">전자 결재</span>
+    </span>
+    <a href="#l_6" data-bs-toggle="collapse" aria-expanded="false"
+       aria-label="h_6-trigger" class="category-trigger hide-border-bottom">
+      <i class="fas fa-fw fa-angle-down"></i>
+    </a>
+  </div>
+  <div id="l_6" class="collapse" aria-expanded="false">
     <ul class="list-group">
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
@@ -363,17 +460,17 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_6" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_7" class="card-header d-flex justify-content-between hide-border-bottom">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">설정</span>
     </span>
-    <a href="#l_6" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_6-trigger" class="category-trigger hide-border-bottom">
+    <a href="#l_7" data-bs-toggle="collapse" aria-expanded="false"
+       aria-label="h_7-trigger" class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
     </a>
   </div>
-  <div id="l_6" class="collapse" aria-expanded="false">
+  <div id="l_7" class="collapse" aria-expanded="false">
     <ul class="list-group">
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>
@@ -405,17 +502,17 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_7" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_8" class="card-header d-flex justify-content-between hide-border-bottom">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">모바일</span>
     </span>
-    <a href="#l_7" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_7-trigger" class="category-trigger hide-border-bottom">
+    <a href="#l_8" data-bs-toggle="collapse" aria-expanded="false"
+       aria-label="h_8-trigger" class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
     </a>
   </div>
-  <div id="l_7" class="collapse" aria-expanded="false">
+  <div id="l_8" class="collapse" aria-expanded="false">
     <ul class="list-group">
       <li class="list-group-item">
         <i class="far fa-folder fa-fw"></i>

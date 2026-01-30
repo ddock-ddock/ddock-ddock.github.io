@@ -57,3 +57,20 @@ mermaid: true
 <div style="position: relative; box-sizing: content-box; max-height: 80vh; max-height: 80svh; width: 100%; aspect-ratio: 1.78; padding: 40px 0 40px 0;">
   <iframe src="https://app.supademo.com/embed/cmkyxouhm33matw9fcfc4q86q?embed_v=2&utm_source=embed" loading="lazy" title="Tips: 설립일 3년이내 투자건 필터링" allow="clipboard-write" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
+
+- 다음 값을 복사하여 이용하면 됩니다.
+  - 만약 연도를 바꾸고 싶은 경우 `years` 앞 숫자를 조절하세요.
+- 설립일 3년 이내 사용자 컬럼 추가용
+```sql
+CASE
+  WHEN
+    "납입일자" <= "설립일" + INTERVAL '3 years'
+  THEN 'O'
+  ELSE 'X'
+END
+```
+
+- 설립일 3년 이내 필터용
+```sql
+"납입일자" <= "설립일" + INTERVAL '3 years'
+```

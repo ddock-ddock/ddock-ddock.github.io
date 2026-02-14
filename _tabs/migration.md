@@ -5,15 +5,15 @@ order: 8
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_0" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_0" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_0" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">회계 마이그레이션</span>
     </span>
-    <a href="#l_0" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_0-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_0" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -55,15 +55,15 @@ order: 8
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_1" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_1" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_1" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">전자결재 마이그레이션</span>
     </span>
-    <a href="#l_1" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_1-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_1" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -77,15 +77,15 @@ order: 8
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_2" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_2" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_2" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">마이그레이션 검수 가이드</span>
     </span>
-    <a href="#l_2" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_2-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_2" class="collapse" aria-expanded="false">
     <ul class="list-group">

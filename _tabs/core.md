@@ -45,11 +45,13 @@ mermaid: true
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   background: var(--card-hovor-bg, #e2e2e2);
-  color: var(--text-color, #333) !important;
-  border-bottom: none !important;
   text-decoration: none;
 }
-.guide-card:hover i {
+.content a.guide-card:hover {
+  color: var(--text-color, #333) !important;
+  border-bottom: none !important;
+}
+.content a.guide-card:hover i {
   color: var(--link-color, #0066cc) !important;
 }
 .guide-card i {

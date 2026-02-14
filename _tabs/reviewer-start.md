@@ -220,7 +220,7 @@ flowchart TD
     <ul class="list-group">
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
-        <a href="/posts/pm0100/" class="mx-2">포트폴리오 정보</a>
+        <span class="mx-2">포트폴리오 정보</span>
       </li>
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>

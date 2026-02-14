@@ -18,10 +18,6 @@ VCworks.kr 사용 과정에서 꼭 필요한 팁과 자주 묻는 질문을 정�
     <i class="fas fa-sort-amount-down"></i>
     <span>다중 정렬<br/><small>지원</small></span>
   </a>
-  <a href="#편집기-헤더-사용법" class="guide-card">
-    <i class="fas fa-heading"></i>
-    <span>편집기 헤더<br/><small>사용법</small></span>
-  </a>
 </div>
 
 <style>
@@ -66,17 +62,6 @@ VCworks.kr 사용 과정에서 꼭 필요한 팁과 자주 묻는 질문을 정�
   font-size: 0.75rem;
   color: var(--text-muted-color, #6c757d);
 }
-.app-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin: 1rem 0;
-}
-.app-buttons .btn {
-  flex: 1;
-  min-width: 200px;
-  text-align: center;
-}
 </style>
 
 ---
@@ -85,12 +70,14 @@ VCworks.kr 사용 과정에서 꼭 필요한 팁과 자주 묻는 질문을 정�
 
 VCworks는 이동 중 전자결재 및 정보조회 편의성을 위해 Mobile 버전을 제공합니다.
 
-<div class="app-buttons">
-  <a href="https://apps.apple.com/kr/app/vcworks/id6738978723" class="btn btn-primary">
-    <i class="fab fa-apple"></i> iOS 앱스토어
+<div class="guide-cards">
+  <a href="https://apps.apple.com/kr/app/vcworks/id6738978723" class="guide-card">
+    <i class="fab fa-apple"></i>
+    <span>iOS<br/><small>앱스토어</small></span>
   </a>
-  <a href="https://play.google.com/store/apps/details?id=com.vcworks.mobile&hl=ko" class="btn btn-primary">
-    <i class="fab fa-android"></i> 구글 플레이스토어
+  <a href="https://play.google.com/store/apps/details?id=com.vcworks.mobile&hl=ko" class="guide-card">
+    <i class="fab fa-android"></i>
+    <span>Android<br/><small>구글 플레이스토어</small></span>
   </a>
 </div>
 
@@ -146,15 +133,6 @@ VCworks는 그리드 내 다중 정렬을 제공합니다. 다중 정렬은 먼�
 - 이때 다른 컬럼을 마찬가지로 클릭하게 되면 첫 번째 선택한 보고일은 내림차순으로 하고, 같은 보고일일 경우 부서명 기준으로 오름차순을 하게 됩니다.
 
   ![다중 정렬](/assets/img/Pasted%20image%2020241015192728.png)
-
----
-
-## 편집기 헤더 사용법
-
-VCworks 편집기는 헤더 기능을 제공합니다. `#`을 입력할 때마다 글씨 크기가 줄어듭니다. `#`과 스페이스 바를 입력한 후 글씨를 쓰면 크기가 달라집니다.
-`#`은 1개부터 6개까지 지원합니다. 아래 사진을 참고해 주세요.
-
-![편집기 헤더 사용법](https://github.com/user-attachments/assets/1bd5f825-f935-488a-8b94-3eef8d045d31)
 
 ---
 

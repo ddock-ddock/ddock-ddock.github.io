@@ -5,13 +5,13 @@ mermaid: true
 ---
 
 <div class="guide-cards">
-  <a href="/admin-start/" class="guide-card">
+  <a href="/reviewer-start/" class="guide-card">
     <i class="fas fa-user-shield"></i>
-    <span>관리자로 시작하기</span>
+    <span>심사역으로 시작하기</span>
   </a>
-  <a href="/member-start/" class="guide-card">
+  <a href="/manager-start/" class="guide-card">
     <i class="fas fa-user"></i>
-    <span>구성원으로 시작하기</span>
+    <span>관리역으로 시작하기</span>
   </a>
   <a href="/features/" class="guide-card">
     <i class="fas fa-book"></i>

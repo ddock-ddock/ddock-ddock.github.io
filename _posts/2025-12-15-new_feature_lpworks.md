@@ -1,5 +1,5 @@
 ---
-title: "[New] LP는 스마트한 자산 관리를, 운용사는 업무 효율의 혁신을. ‘LPworks for Personal’"
+title: v1.2.0 - LPworks for Personal 출시
 author: dkdk.kr
 date: 2025-12-15 13:00:00 +0800
 categories:

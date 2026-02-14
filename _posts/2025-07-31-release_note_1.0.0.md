@@ -1,5 +1,5 @@
 ---
-title: 1.0.0
+title: v1.0.0 - 포트폴리오 관리, 해외투자 프로세스 개선
 author: dkdk.kr
 date: 2025-07-31 13:00:00 +0800
 categories:

@@ -168,15 +168,15 @@ flowchart TD
 ## 업무 영역별 상세 가이드
 
 <div class="card categories">
-  <div id="h_m0" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_m0" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_m0" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">설정</span>
     </span>
-    <a href="#l_m0" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_m0-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_m0" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -213,15 +213,15 @@ flowchart TD
 </div>
 
 <div class="card categories">
-  <div id="h_m1" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_m1" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_m1" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">조합 결성/관리</span>
     </span>
-    <a href="#l_m1" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_m1-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_m1" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -290,15 +290,15 @@ flowchart TD
 </div>
 
 <div class="card categories">
-  <div id="h_m2" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_m2" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_m2" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">거래원장 관리</span>
     </span>
-    <a href="#l_m2" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_m2-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_m2" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -323,15 +323,15 @@ flowchart TD
 </div>
 
 <div class="card categories">
-  <div id="h_m3" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_m3" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_m3" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">회계/재무</span>
     </span>
-    <a href="#l_m3" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_m3-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_m3" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -412,15 +412,15 @@ flowchart TD
 </div>
 
 <div class="card categories">
-  <div id="h_m4" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_m4" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_m4" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">영업보고 관리</span>
     </span>
-    <a href="#l_m4" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_m4-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_m4" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -453,15 +453,15 @@ flowchart TD
 </div>
 
 <div class="card categories">
-  <div id="h_m5" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_m5" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_m5" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">LP보고</span>
     </span>
-    <a href="#l_m5" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_m5-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_m5" class="collapse" aria-expanded="false">
     <ul class="list-group">

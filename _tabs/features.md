@@ -6,15 +6,15 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_0" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_0" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_0" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">조합</span>
     </span>
-    <a href="#l_0" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_0-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_0" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -76,15 +76,15 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_1" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_1" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_1" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">투자/회수</span>
     </span>
-    <a href="#l_1" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_1-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_1" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -134,15 +134,15 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_2" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_2" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_2" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">포트폴리오</span>
     </span>
-    <a href="#l_2" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_2-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_2" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -192,15 +192,15 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_3" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_3" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_3" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">영업보고</span>
     </span>
-    <a href="#l_3" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_3-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_3" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -234,15 +234,15 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_4" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_4" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_4" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">LP 보고</span>
     </span>
-    <a href="#l_4" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_4-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_4" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -324,15 +324,15 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_5" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_5" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_5" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">회계/재무</span>
     </span>
-    <a href="#l_5" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_5-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_5" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -414,15 +414,15 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_6" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_6" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_6" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">전자 결재</span>
     </span>
-    <a href="#l_6" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_6-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_6" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -460,15 +460,15 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_7" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_7" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_7" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">설정</span>
     </span>
-    <a href="#l_7" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_7-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_7" class="collapse" aria-expanded="false">
     <ul class="list-group">
@@ -502,15 +502,15 @@ indent: true
 
 <div class="card categories">
   <!-- 대분류 -->
-  <div id="h_8" class="card-header d-flex justify-content-between hide-border-bottom">
+  <div id="h_8" class="card-header d-flex justify-content-between hide-border-bottom"
+       data-bs-toggle="collapse" data-bs-target="#l_8" role="button" aria-expanded="false" style="cursor: pointer">
     <span class="ms-2">
       <i class="far fa-folder-open fa-fw"></i>
       <span class="mx-2">모바일</span>
     </span>
-    <a href="#l_8" data-bs-toggle="collapse" aria-expanded="false"
-       aria-label="h_8-trigger" class="category-trigger hide-border-bottom">
+    <span class="category-trigger hide-border-bottom">
       <i class="fas fa-fw fa-angle-down"></i>
-    </a>
+    </span>
   </div>
   <div id="l_8" class="collapse" aria-expanded="false">
     <ul class="list-group">

@@ -5,7 +5,7 @@ mermaid: true
 ---
 
 <div class="guide-cards">
-  <a href="/analyst-start/" class="guide-card">
+  <a href="/associate-start/" class="guide-card">
     <i class="fas fa-user-shield"></i>
     <span>심사역으로 시작하기</span>
   </a>

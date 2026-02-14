@@ -4,10 +4,6 @@ order: 7
 mermaid: true
 ---
 
-- [VCworks BI 사용자 가이드 (노션)](https://www.notion.so/VCworks-BI-1d89b079772380f093e9cdecee99c52d)
-- [VCworks BI 데이터셋 가이드 (노션)](https://www.notion.so/VCworks-BI-Dataset-Guide-2309b0797723804d9771f3b4e56bcc95)
-
----
 ## 예제1 - 막대 차트 (Bar Chart)
 <div style="position: relative; box-sizing: content-box; max-height: 80vh; max-height: 80svh; width: 100%; aspect-ratio: 1.7777777777777777; padding: 40px 0 40px 0;"><iframe src="https://app.supademo.com/embed/cm9kzspfe47y8ljv55hhpkw2r?embed_v=2&utm_source=embed" loading="lazy" title="VCworks BI Demo - 예제1. 막대 차트" allow="clipboard-write" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

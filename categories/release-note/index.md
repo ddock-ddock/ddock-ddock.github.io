@@ -1,5 +1,3 @@
 ---
-icon: fas fa-bullhorn
-order: 1
 redirect_to: /categories/새로운-소식/
 ---

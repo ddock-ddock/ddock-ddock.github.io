@@ -3,9 +3,9 @@ title: v1.0.0 - 포트폴리오 관리, 해외투자 프로세스 개선
 author: dkdk.kr
 date: 2025-07-31 13:00:00 +0800
 categories:
-  - Release Note
+  - 새로운 소식
 tags:
-  - release-note
+  - update
 render_with_liquid: true
 mermaid: true
 ---

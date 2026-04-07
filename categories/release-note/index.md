@@ -1,3 +1,3 @@
 ---
-redirect_to: /categories/새로운-소식/
+redirect_to: /categories/news/
 ---

@@ -3,7 +3,7 @@ title: v1.3.0 - 조합원총회 전자투표, 회사별 검토 이력 관리
 author: dkdk.kr
 date: 2026-02-01 13:00:00 +0800
 categories:
-  - 새로운 소식
+  - news
 tags:
   - update
 render_with_liquid: true

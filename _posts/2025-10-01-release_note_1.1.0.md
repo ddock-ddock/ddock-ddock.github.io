@@ -3,7 +3,7 @@ title: v1.1.0 - 사용자 정의 항목, 거래처 잔액 조회 추가
 author: dkdk.kr
 date: 2025-10-01 13:00:00 +0800
 categories:
-  - 새로운 소식
+  - news
 tags:
   - update
 render_with_liquid: true

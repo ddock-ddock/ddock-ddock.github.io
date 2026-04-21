@@ -229,6 +229,14 @@ flowchart TD
         <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/vs_foreign/" class="mx-2">해외(외화) 투자 가이드</a>
       </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/approval-line/" class="mx-2">전자결재 - 결재선 저장/불러오기</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/approve-document/" class="mx-2">전자결재 - 기안문 결재하기</a>
+      </li>
     </ul>
   </div>
 </div>

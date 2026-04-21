@@ -240,6 +240,14 @@ flowchart TD
         <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/ed0100/" class="mx-2">전자결재 - 빈품의서</a>
       </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/approval-line/" class="mx-2">전자결재 - 결재선 저장/불러오기</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/approve-document/" class="mx-2">전자결재 - 기안문 결재하기</a>
+      </li>
     </ul>
   </div>
 </div>

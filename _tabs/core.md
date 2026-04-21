@@ -81,6 +81,7 @@ flowchart TD
         hr0007["조직도 관리"]
         se0051["회사 정보"]
         my0001["마이페이지"]
+        vs_settings["투자 심의 설정"]
   end
  subgraph s2["결성"]
         fd0001["조합생성(개요등록)"]
@@ -96,6 +97,7 @@ flowchart TD
         fm0001a(("자동전표"))
   end
  subgraph s3["투심"]
+        review_history["회사별 검토 이력 기록"]
         wr0003["주간회의(딜소싱)"]
         vs0003["투자정보입력"]
         vs0006["투자심의(표결)"]
@@ -150,6 +152,7 @@ flowchart TD
     fd0006 --> oi0002
     oi0002 --> fm0001a & fd0000
     fd0000 --> wr0003
+    review_history --> wr0003
     wr0003 --> vs0003
     vs0003 --> vs0006
     vs0006 --> ed0001a
@@ -185,6 +188,8 @@ flowchart TD
     click hr0007 "{% post_url 2024-07-02-hr0007 %}"
     click se0051 "{% post_url 2026-04-21-se0051 %}"
     click my0001 "{% post_url 2026-04-21-my0001 %}"
+    click vs_settings "{% post_url 2026-04-21-vs-settings %}"
+    click review_history "{% post_url 2026-04-21-review-history %}"
     click fd0001 "{% post_url 2024-07-04-fd0001 %}"
     click fd0010 "{% post_url 2024-07-04-fd0010 %}"
     click fd0011 "{% post_url 2024-07-04-fd0011 %}"

@@ -462,7 +462,19 @@ flowchart TD
       </li>
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/br0007a/" class="mx-2">포트폴리오 정보 반영</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/br0011/" class="mx-2">영업보고서 생성</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/br0011a/" class="mx-2">영업보고 첨부파일 일괄 다운로드</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/stworks-invite/" class="mx-2">STworks 가입 요청 (포트폴리오 전환)</a>
       </li>
     </ul>
   </div>

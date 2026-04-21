@@ -210,6 +210,14 @@ flowchart TD
       </li>
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/se0051/" class="mx-2">회사 정보</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/my0001/" class="mx-2">마이페이지</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/cm0009/" class="mx-2">사용자 작업 이력 조회</a>
       </li>
       <li class="list-group-item">

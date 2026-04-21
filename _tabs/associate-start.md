@@ -94,6 +94,7 @@ mermaid: true
 ```mermaid
 flowchart TD
  subgraph s1["투자심의"]
+        vs_guide["투자심의 이용 가이드"]
         review_history["회사별 검토 이력 기록"]
         wr0003["주간회의(딜소싱)"]
         vs0003["투자정보입력"]
@@ -102,15 +103,20 @@ flowchart TD
         oi0003["투자 운용지시(전자결재)"]
         vs0009["투자완료(첨부파일등록)"]
         stworks_invite["STworks 가입 요청"]
+        vs_foreign["해외(외화) 투자 가이드"]
   end
  subgraph s2["포트폴리오 관리"]
         pm0100["포트폴리오 정보"]
         pm0300["가치평가"]
+        pm0301["가치평가 등록(투자유형별)"]
+        pm0302["가치평가 등록(재원별)"]
+        pm0303["가치평가 조회"]
         vs0031["담당 심사역 관리"]
   end
  subgraph s3["영업보고"]
         br0009["심사역 의견 작성"]
         br0007["영업보고 검수"]
+        br0008["영업보고 AI 검수"]
         br0011["영업보고서 생성"]
   end
  subgraph s4["회수(EXIT)"]
@@ -124,7 +130,9 @@ flowchart TD
   end
  subgraph s6["LP보고"]
         lp0600["담당심사역 이력"]
+        lp0630["투자심사 보고"]
   end
+    vs_guide -. 전체 프로세스 .-> review_history
     review_history --> wr0003
     wr0003 --> vs0003
     vs0003 --> vs0006
@@ -132,18 +140,25 @@ flowchart TD
     ed0001a --> oi0003
     oi0003 --> vs0009
     vs0009 --> stworks_invite
+    vs0003 -. 해외 투자 .-> vs_foreign
+    vs0006 --> lp0630
     vs0009 --> pm0100
     pm0100 --> pm0300
+    pm0300 --> pm0301 & pm0302
+    pm0301 --> pm0303
+    pm0302 --> pm0303
     pm0100 --> br0009
     pm0100 --> ex0001
     vs0009 -. 선택적 .-> sa0002
     br0009 --> br0007
-    br0007 --> br0011
+    br0007 --> br0008
+    br0008 --> br0011
     ex0001 --> oi0001
     oi0001 --> ex0007
     sa0002 -. 선택적 .-> sa0003
     vs0031 --> lp0600
 
+    click vs_guide "{% post_url 2025-05-22-vs_guide %}"
     click review_history "{% post_url 2026-04-21-review-history %}"
     click wr0003 "{% post_url 2024-07-09-wr0003 %}"
     click vs0003 "{% post_url 2024-07-10-vs0003 %}"
@@ -151,10 +166,15 @@ flowchart TD
     click ed0001a "{% post_url 2024-07-12-ed0001a %}"
     click oi0003 "{% post_url 2024-07-13-oi0003 %}"
     click vs0009 "{% post_url 2024-07-14-vs0009 %}"
+    click vs_foreign "{% post_url 2025-09-24-vs_foreign %}"
     click pm0300 "{% post_url 2024-09-01-pm0300 %}"
+    click pm0301 "{% post_url 2024-09-02-pm0301 %}"
+    click pm0302 "{% post_url 2024-09-03-pm0302 %}"
+    click pm0303 "{% post_url 2024-09-04-pm0303 %}"
     click vs0031 "{% post_url 2025-04-03-vs0031 %}"
     click br0009 "{% post_url 2024-08-26-br0009 %}"
     click br0007 "{% post_url 2024-08-25-br0007 %}"
+    click br0008 "{% post_url 2024-08-25-br0008 %}"
     click br0011 "{% post_url 2024-08-27-br0011 %}"
     click stworks_invite "{% post_url 2026-04-21-stworks-invite %}"
     click ex0001 "{% post_url 2024-07-18-ex0001 %}"
@@ -163,6 +183,7 @@ flowchart TD
     click sa0002 "{% post_url 2024-09-11-sa0002 %}"
     click sa0003 "{% post_url 2024-09-12-sa0003 %}"
     click lp0600 "{% post_url 2024-11-29-lp0600 %}"
+    click lp0630 "{% post_url 2025-04-02-lp0630 %}"
 
 ```
 

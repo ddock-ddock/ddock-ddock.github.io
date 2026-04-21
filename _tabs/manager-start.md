@@ -90,6 +90,9 @@ mermaid: true
 ## 관리역 업무 흐름
 
 - 다음의 항목을 클릭하여 관련 가이드로 바로 이동할 수 있습니다.
+- 관리역 업무는 규모가 커서 아래와 같이 **운영 흐름 · 회계/재무 · LP보고** 3개 다이어그램으로 나누어 제공합니다.
+
+### 1. 운영 흐름 (설정 → 결성 → 조합 운영 → 거래원장 → 영업보고)
 
 ```mermaid
 flowchart TD
@@ -97,11 +100,15 @@ flowchart TD
         hr0001["구성원 등록"]
         hr0002["구성원 정보 수정"]
         hr0007["조직도 관리"]
+        se0005["사용자 관리"]
+        se0003["역할/권한 관리"]
         se0051["회사 정보"]
         my0001["마이페이지"]
         vs_settings["투자 심의 설정"]
         se0201["사용자 코드 관리"]
         se0202["사용자 정의 항목 관리"]
+        cm0009["사용자 작업 이력 조회"]
+        ed0100["빈품의서"]
   end
  subgraph s2["결성"]
         fd0001["조합생성(개요등록)"]
@@ -114,24 +121,35 @@ flowchart TD
         fd0000(("결성완료"))
         fd0006["출자/배분 등록"]
         oi0002["출자 운용지시서 등록(전자결재)"]
+        pr0011["조합원 명부·출자 증서 출력"]
   end
- subgraph s3["거래원장"]
+ subgraph s3["조합 운영/관리"]
+        fd0029["조합원 총회"]
+        fd0060["지분양도양수 등록"]
+        fd0004["투자 현황"]
+        fd0100["수익률 관리"]
+        fd0200["조합원 소득공제"]
+  end
+ subgraph s4["거래원장"]
         pm0001["거래원장관리"]
-        pm0004["거래등록"]
-        fm0002["전표입력"]
+        pm0004["일반거래 등록"]
+        pm0006["전환거래 등록"]
+        pm0008["인수합병 거래 등록"]
+        fm0002_b["전표입력"]
   end
- subgraph s4["영업보고 관리"]
+ subgraph s5["영업보고 관리"]
+        stworks_invite["STworks 가입 요청"]
         br0001["템플릿 관리"]
         br0012["포트폴리오 연락망"]
         br0004["영업보고 요청"]
         br0007["영업보고 검수"]
+        br0008["영업보고 AI 검수"]
         br0011["영업보고서 생성"]
-  end
- subgraph s5["LP보고"]
-        lc0101["정기 보고"]
   end
     hr0001 --> hr0002
     hr0002 --> hr0007
+    hr0007 --> se0005
+    se0005 --> se0003
     hr0007 --> fd0001
     fd0001 --> fd0010 & fd0011 & fd0009a
     fm0010 --> fd0009a
@@ -142,24 +160,35 @@ flowchart TD
     fd0011 --> fd0006
     fd0006 --> oi0002
     oi0002 --> fd0000
+    fd0000 --> pr0011
+    fd0000 --> fd0029 & fd0060 & fd0004
+    fd0004 --> fd0100
+    fd0011 --> fd0200
     fd0000 --> pm0001
-    fd0000 --> br0001
-    fd0000 --> lc0101
-    pm0001 --> pm0004 & fm0002
-    pm0004 --> fm0002
+    fd0000 --> stworks_invite
+    stworks_invite --> br0001
+    pm0001 --> pm0004 & pm0006 & pm0008 & fm0002_b
+    pm0004 --> fm0002_b
+    pm0006 --> fm0002_b
+    pm0008 --> fm0002_b
     br0001 --> br0004
     br0012 --> br0004
     br0004 --> br0007
-    br0007 --> br0011
+    br0007 --> br0008
+    br0008 --> br0011
 
     click hr0001 "{% post_url 2024-07-02-hr0001 %}"
     click hr0002 "{% post_url 2024-07-02-hr0002 %}"
     click hr0007 "{% post_url 2024-07-02-hr0007 %}"
+    click se0005 "{% post_url 2024-07-02-se0005 %}"
+    click se0003 "{% post_url 2024-07-03-se0003 %}"
     click se0051 "{% post_url 2026-04-21-se0051 %}"
     click my0001 "{% post_url 2026-04-21-my0001 %}"
     click vs_settings "{% post_url 2026-04-21-vs-settings %}"
     click se0201 "{% post_url 2026-04-21-se0201 %}"
     click se0202 "{% post_url 2026-04-21-se0202 %}"
+    click cm0009 "{% post_url 2025-09-08-cm0009 %}"
+    click ed0100 "{% post_url 2024-08-28-ed0100 %}"
     click fd0001 "{% post_url 2024-07-04-fd0001 %}"
     click fd0010 "{% post_url 2024-07-04-fd0010 %}"
     click fd0011 "{% post_url 2024-07-04-fd0011 %}"
@@ -169,15 +198,156 @@ flowchart TD
     click fd0012 "{% post_url 2024-07-06-fd0012 %}"
     click fd0006 "{% post_url 2024-07-07-fd0006 %}"
     click oi0002 "{% post_url 2024-07-07-oi0002 %}"
+    click pr0011 "{% post_url 2025-04-22-pr0011 %}"
+    click fd0029 "{% post_url 2025-10-15-fd0029 %}"
+    click fd0060 "{% post_url 2025-10-10-fd0060 %}"
+    click fd0004 "{% post_url 2025-04-23-fd0004 %}"
+    click fd0100 "{% post_url 2025-04-18-fd0100 %}"
+    click fd0200 "{% post_url 2025-10-11-fd0200 %}"
     click pm0001 "{% post_url 2024-07-15-pm0001 %}"
     click pm0004 "{% post_url 2024-07-16-pm0004 %}"
-    click fm0002 "{% post_url 2024-07-17-fm0002 %}"
+    click pm0006 "{% post_url 2025-09-05-pm0006 %}"
+    click pm0008 "{% post_url 2025-09-05-pm0008 %}"
+    click fm0002_b "{% post_url 2024-07-17-fm0002 %}"
+    click stworks_invite "{% post_url 2026-04-21-stworks-invite %}"
     click br0001 "{% post_url 2024-08-23-br0001 %}"
     click br0012 "{% post_url 2024-08-22-br0012 %}"
     click br0004 "{% post_url 2024-08-24-br0004 %}"
     click br0007 "{% post_url 2024-08-25-br0007 %}"
+    click br0008 "{% post_url 2024-08-25-br0008 %}"
     click br0011 "{% post_url 2024-08-27-br0011 %}"
+
+```
+
+### 2. 회계/재무 흐름
+
+```mermaid
+flowchart TD
+ subgraph fa1["기초 설정"]
+        fm0009["회계기준 및 회계원장"]
+        fm0010_b["재원별 회계원장"]
+        fm0005["계정과목"]
+        fm0011["재무제표 양식"]
+        fm0300["자동 전표 설정"]
+  end
+ subgraph fa2["기장"]
+        fm0002["전표 입력"]
+  end
+ subgraph fa3["조회"]
+        fm0003["분개장 조회"]
+        fm0021["전표 조회"]
+        fm0015["계정별 원장"]
+        fm0016["합계 잔액 시산표"]
+        fm0018["재무상태표"]
+        fm0017["손익계산서"]
+  end
+ subgraph fa4["마감"]
+        fm0012["표준 계정 연결 관리"]
+        fm0019["마감/이월"]
+  end
+ subgraph fa5["자금 관리"]
+        fm0008["금융 정보 관리"]
+        fm0020["계좌잔액 조회"]
+        fm0100["법인 카드 관리"]
+        my0200["내 법인 카드 사용 내역"]
+  end
+    fm0009 --> fm0010_b
+    fm0010_b --> fm0005
+    fm0005 --> fm0011
+    fm0011 --> fm0300
+    fm0300 --> fm0002
+    fm0002 --> fm0003 & fm0021 & fm0015 & fm0016 & fm0018 & fm0017
+    fm0018 --> fm0012
+    fm0017 --> fm0012
+    fm0012 --> fm0019
+    fm0008 --> fm0020
+    fm0100 --> my0200
+    fm0100 -. 전표 생성 .-> fm0002
+
+    click fm0009 "{% post_url 2024-07-24-fm0009 %}"
+    click fm0010_b "{% post_url 2024-07-04-fm0010 %}"
+    click fm0005 "{% post_url 2024-07-26-fm0005 %}"
+    click fm0011 "{% post_url 2024-07-28-fm0011 %}"
+    click fm0300 "{% post_url 2024-07-31-fm0300 %}"
+    click fm0002 "{% post_url 2024-07-17-fm0002 %}"
+    click fm0003 "{% post_url 2024-08-01-fm0003 %}"
+    click fm0021 "{% post_url 2024-08-02-fm0021 %}"
+    click fm0015 "{% post_url 2024-08-03-fm0015 %}"
+    click fm0016 "{% post_url 2024-08-04-fm0016 %}"
+    click fm0018 "{% post_url 2024-08-05-fm0018 %}"
+    click fm0017 "{% post_url 2024-08-06-fm0017 %}"
+    click fm0012 "{% post_url 2024-07-30-fm0012 %}"
+    click fm0019 "{% post_url 2024-07-29-fm0019 %}"
+    click fm0008 "{% post_url 2024-08-07-fm0008 %}"
+    click fm0020 "{% post_url 2024-08-08-fm0020 %}"
+    click fm0100 "{% post_url 2024-08-29-fm0100 %}"
+    click my0200 "{% post_url 2024-08-30-my0200 %}"
+
+```
+
+### 3. LP보고 흐름
+
+```mermaid
+flowchart TD
+ subgraph lp1["초기 설정"]
+        lp0001["재원별 보고 LP 설정"]
+        lp0520["운용기관 인력정보"]
+        lp0510["투자기업 신청정보"]
+  end
+ subgraph lp2["정기 보고 (월보고)"]
+        lc0101["정기 보고"]
+        lp0531["운용기관 정보 보고"]
+        lp0270["상장 주식 거래"]
+        lp0310["투자 기업 부가 정보"]
+        lp0600["담당심사역 이력"]
+  end
+ subgraph lp3["수시 보고"]
+        lp0630["투자심사 보고"]
+        lp0635["투자 계약서 보고"]
+        lp0550["조합원 총회"]
+        lp0610["출자금 납입 요청 계획"]
+        lp0590["수시 보고"]
+        lp0570["관리보수/성과보수"]
+        lp0620["반기 보고"]
+        lp0681["액셀러레이터 보고"]
+  end
+ subgraph lp4["전송 이력"]
+        lc0100["보고 전송 내역 조회"]
+  end
+    lp0001 --> lp0520 & lp0510
+    lp0520 --> lc0101
+    lp0510 --> lc0101
+    lp0531 --> lc0101
+    lp0270 --> lc0101
+    lp0310 --> lc0101
+    lp0600 --> lc0101
+    lc0101 --> lc0100
+    lp0630 --> lc0100
+    lp0635 --> lc0100
+    lp0550 --> lc0100
+    lp0610 --> lc0100
+    lp0590 --> lc0100
+    lp0570 --> lc0100
+    lp0620 --> lc0100
+    lp0681 --> lc0100
+
+    click lp0001 "{% post_url 2024-11-29-lp0001 %}"
+    click lp0520 "{% post_url 2024-11-29-lp0520 %}"
+    click lp0510 "{% post_url 2024-11-29-lp0510 %}"
     click lc0101 "{% post_url 2024-11-29-lc0101 %}"
+    click lp0531 "{% post_url 2024-11-29-lp0531 %}"
+    click lp0270 "{% post_url 2024-11-29-lp0270 %}"
+    click lp0310 "{% post_url 2024-11-29-lp0310 %}"
+    click lp0600 "{% post_url 2024-11-29-lp0600 %}"
+    click lp0630 "{% post_url 2025-04-02-lp0630 %}"
+    click lp0635 "{% post_url 2025-09-08-lp0635 %}"
+    click lp0550 "{% post_url 2025-04-23-lp0550 %}"
+    click lp0610 "{% post_url 2025-09-08-lp0610 %}"
+    click lp0590 "{% post_url 2025-09-08-lp0590 %}"
+    click lp0570 "{% post_url 2025-09-08-lp0570 %}"
+    click lp0620 "{% post_url 2025-09-08-lp0620 %}"
+    click lp0681 "{% post_url 2024-11-29-lp0681 %}"
+    click lc0100 "{% post_url 2024-11-29-lc0100 %}"
 
 ```
 

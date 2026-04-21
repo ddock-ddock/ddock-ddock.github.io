@@ -79,6 +79,8 @@ flowchart TD
         hr0001["구성원 등록"]
         hr0002["구성원 정보 수정"]
         hr0007["조직도 관리"]
+        se0051["회사 정보"]
+        my0001["마이페이지"]
   end
  subgraph s2["결성"]
         fd0001["조합생성(개요등록)"]
@@ -175,6 +177,8 @@ flowchart TD
     click hr0001 "{% post_url 2024-07-02-hr0001 %}"
     click hr0002 "{% post_url 2024-07-02-hr0002 %}"
     click hr0007 "{% post_url 2024-07-02-hr0007 %}"
+    click se0051 "{% post_url 2026-04-21-se0051 %}"
+    click my0001 "{% post_url 2026-04-21-my0001 %}"
     click fd0001 "{% post_url 2024-07-04-fd0001 %}"
     click fd0010 "{% post_url 2024-07-04-fd0010 %}"
     click fd0011 "{% post_url 2024-07-04-fd0011 %}"

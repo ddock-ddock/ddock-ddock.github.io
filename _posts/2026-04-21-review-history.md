@@ -39,11 +39,11 @@ render_with_liquid: true
 
 1. 우측 상단 **[회사 등록]** 버튼을 클릭해주세요.
 
-![회사 등록 버튼](assets/img/review_history_02.png)
+    ![회사 등록 버튼](assets/img/review_history_02.png)
 
 2. 필수 정보를 입력한 뒤 우측 상단 **[저장]** 버튼을 클릭해주세요.
 
-![회사 정보 입력](assets/img/review_history_03.png)
+    ![회사 정보 입력](assets/img/review_history_03.png)
 
 > 이미 투자심의 또는 포트폴리오가 추가된 회사라면 신규 등록 절차를 생략하고, 목록에서 해당 회사 행을 클릭해주세요.
 {: .prompt-tip }
@@ -62,7 +62,7 @@ render_with_liquid: true
 
 1. **[+ 기록 추가]** 버튼을 클릭해주세요.
 
-![기록 추가 버튼](assets/img/review_history_06.png)
+    ![기록 추가 버튼](assets/img/review_history_06.png)
 
 2. 옵션 중 **[검토/관리 기록]**을 클릭해주세요.
 	- **[주간 보고]**를 선택하면 해당 기록이 주간보고에 함께 반영됩니다.
@@ -71,7 +71,7 @@ render_with_liquid: true
 
 3. 제목과 본문을 작성해주세요.
 
-![기록 작성](assets/img/review_history_08.png)
+    ![기록 작성](assets/img/review_history_08.png)
 
 4. 작성을 마치면 **[저장]** 버튼을 클릭해주세요.
 	- 작성 중 **[임시저장]** 버튼으로 초안을 보관할 수 있으며, 임시 저장한 글은 `임시보관함`에서 불러올 수 있습니다.
@@ -104,19 +104,19 @@ render_with_liquid: true
 
 1. **[+ 기록 추가]** 버튼을 클릭해주세요.
 
-![기록 추가 버튼](assets/img/review_history_13.png)
+    ![기록 추가 버튼](assets/img/review_history_13.png)
 
 2. 옵션 중 **[검토/관리 기록]**을 클릭해주세요.
 
-![기록 유형 선택](assets/img/review_history_14.png)
+    ![기록 유형 선택](assets/img/review_history_14.png)
 
 3. 제목과 본문을 작성해주세요.
 
-![기록 작성](assets/img/review_history_15.png)
+    ![기록 작성](assets/img/review_history_15.png)
 
 4. 작성 완료 후 **[저장]** 버튼을 클릭해주세요. 임시저장·임시보관함은 A 경로와 동일하게 지원됩니다.
 
-![저장](assets/img/review_history_16.png)
+    ![저장](assets/img/review_history_16.png)
 
 ## 자주 묻는 질문
 

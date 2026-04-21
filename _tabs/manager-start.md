@@ -158,21 +158,30 @@ flowchart TD
 
 ### 3. 조합 운영/관리
 
-> 결성 이후 지속 운영: 조합원 총회 개최, 지분양도양수, 투자 현황/수익률 모니터링, 조합원 소득공제 처리 등.
+> 결성 이후 지속적으로 수행하는 **독립 운영 메뉴**들입니다. 서로 순서 관계가 없어 필요한 시점에 개별 사용하시면 됩니다.
 
-```mermaid
-flowchart LR
-    fd0029["조합원 총회"]
-    fd0060["지분양도양수 등록"]
-    fd0004["투자 현황"] --> fd0100["수익률 관리"]
-    fd0200["조합원 소득공제"]
-
-    click fd0029 "{% post_url 2025-10-15-fd0029 %}"
-    click fd0060 "{% post_url 2025-10-10-fd0060 %}"
-    click fd0004 "{% post_url 2025-04-23-fd0004 %}"
-    click fd0100 "{% post_url 2025-04-18-fd0100 %}"
-    click fd0200 "{% post_url 2025-10-11-fd0200 %}"
-```
+<div class="guide-cards">
+  <a href="/posts/fd0029/" class="guide-card">
+    <i class="fas fa-users"></i>
+    <span>조합원 총회</span>
+  </a>
+  <a href="/posts/fd0060/" class="guide-card">
+    <i class="fas fa-exchange-alt"></i>
+    <span>지분양도양수 등록</span>
+  </a>
+  <a href="/posts/fd0004/" class="guide-card">
+    <i class="fas fa-chart-pie"></i>
+    <span>투자 현황<br/><small>수익률 관리와 연계</small></span>
+  </a>
+  <a href="/posts/fd0100/" class="guide-card">
+    <i class="fas fa-percentage"></i>
+    <span>수익률 관리</span>
+  </a>
+  <a href="/posts/fd0200/" class="guide-card">
+    <i class="fas fa-file-invoice-dollar"></i>
+    <span>조합원 소득공제</span>
+  </a>
+</div>
 
 ### 4. 거래원장
 
@@ -282,71 +291,93 @@ flowchart TD
 
 ```
 
-### 7. LP보고 흐름
+### 7. LP보고
+
+> VICS(벤처투자종합정보시스템) 전자 보고를 위한 메뉴 모음입니다. **초기 설정 → 정기 보고** 흐름은 순서가 있고, **수시 보고**는 이벤트 발생 시 개별 사용하는 병렬 메뉴입니다.
+
+#### 7-1. 초기 설정
+
+> VICSR에서 부여한 ID·코드를 VCworks와 연결하는 단계. 가장 먼저 완료해야 합니다.
 
 ```mermaid
-flowchart TD
- subgraph lp1["초기 설정"]
-        lp0001["재원별 보고 LP 설정"]
-        lp0520["운용기관 인력정보"]
-        lp0510["투자기업 신청정보"]
-  end
- subgraph lp2["정기 보고 (월보고)"]
-        lc0101["정기 보고"]
-        lp0531["운용기관 정보 보고"]
-        lp0270["상장 주식 거래"]
-        lp0310["투자 기업 부가 정보"]
-        lp0600["담당심사역 이력"]
-  end
- subgraph lp3["수시 보고"]
-        lp0630["투자심사 보고"]
-        lp0635["투자 계약서 보고"]
-        lp0550["조합원 총회"]
-        lp0610["출자금 납입 요청 계획"]
-        lp0590["수시 보고"]
-        lp0570["관리보수/성과보수"]
-        lp0620["반기 보고"]
-        lp0681["액셀러레이터 보고"]
-  end
- subgraph lp4["전송 이력"]
-        lc0100["보고 전송 내역 조회"]
-  end
-    lp0001 --> lp0520 & lp0510
-    lp0520 --> lc0101
-    lp0510 --> lc0101
-    lp0531 --> lc0101
-    lp0270 --> lc0101
-    lp0310 --> lc0101
-    lp0600 --> lc0101
-    lc0101 --> lc0100
-    lp0630 --> lc0100
-    lp0635 --> lc0100
-    lp0550 --> lc0100
-    lp0610 --> lc0100
-    lp0590 --> lc0100
-    lp0570 --> lc0100
-    lp0620 --> lc0100
-    lp0681 --> lc0100
+flowchart LR
+    lp0001["재원별 보고 LP 설정"] --> lp0520["운용기관 인력정보"]
+    lp0001 --> lp0510["투자기업 신청정보"]
 
     click lp0001 "{% post_url 2024-11-29-lp0001 %}"
     click lp0520 "{% post_url 2024-11-29-lp0520 %}"
     click lp0510 "{% post_url 2024-11-29-lp0510 %}"
+```
+
+#### 7-2. 정기 보고 (월보고)
+
+> 매월 익월 1~7일에 제출하는 월보고. 아래 항목들을 취합해 `정기 보고(lc0101)`에서 확정·전송합니다.
+
+```mermaid
+flowchart LR
+    lp0531["운용기관 정보 보고"] --> lc0101["정기 보고"]
+    lp0270["상장 주식 거래"] --> lc0101
+    lp0310["투자 기업 부가 정보"] --> lc0101
+    lp0600["담당심사역 이력"] --> lc0101
+
     click lc0101 "{% post_url 2024-11-29-lc0101 %}"
     click lp0531 "{% post_url 2024-11-29-lp0531 %}"
     click lp0270 "{% post_url 2024-11-29-lp0270 %}"
     click lp0310 "{% post_url 2024-11-29-lp0310 %}"
     click lp0600 "{% post_url 2024-11-29-lp0600 %}"
-    click lp0630 "{% post_url 2025-04-02-lp0630 %}"
-    click lp0635 "{% post_url 2025-09-08-lp0635 %}"
-    click lp0550 "{% post_url 2025-04-23-lp0550 %}"
-    click lp0610 "{% post_url 2025-09-08-lp0610 %}"
-    click lp0590 "{% post_url 2025-09-08-lp0590 %}"
-    click lp0570 "{% post_url 2025-09-08-lp0570 %}"
-    click lp0620 "{% post_url 2025-09-08-lp0620 %}"
-    click lp0681 "{% post_url 2024-11-29-lp0681 %}"
-    click lc0100 "{% post_url 2024-11-29-lc0100 %}"
-
 ```
+
+#### 7-3. 수시 보고
+
+> 투자 집행·조합원 총회 등 **사건 발생 시점에 제출**하는 메뉴들입니다. 각 보고는 독립적이므로 필요한 항목만 사용하시면 됩니다.
+
+<div class="guide-cards">
+  <a href="/posts/lp0630/" class="guide-card">
+    <i class="fas fa-gavel"></i>
+    <span>투자심사 보고</span>
+  </a>
+  <a href="/posts/lp0635/" class="guide-card">
+    <i class="fas fa-file-contract"></i>
+    <span>투자 계약서 보고</span>
+  </a>
+  <a href="/posts/lp0550/" class="guide-card">
+    <i class="fas fa-users"></i>
+    <span>조합원 총회</span>
+  </a>
+  <a href="/posts/lp0610/" class="guide-card">
+    <i class="fas fa-calendar-check"></i>
+    <span>출자금 납입 요청 계획</span>
+  </a>
+  <a href="/posts/lp0590/" class="guide-card">
+    <i class="fas fa-bolt"></i>
+    <span>수시 보고<br/><small>일반</small></span>
+  </a>
+  <a href="/posts/lp0570/" class="guide-card">
+    <i class="fas fa-won-sign"></i>
+    <span>관리보수/성과보수</span>
+  </a>
+  <a href="/posts/lp0620/" class="guide-card">
+    <i class="fas fa-file-alt"></i>
+    <span>반기 보고</span>
+  </a>
+  <a href="/posts/lp0681/" class="guide-card">
+    <i class="fas fa-rocket"></i>
+    <span>액셀러레이터 보고</span>
+  </a>
+</div>
+
+#### 7-4. 전송 이력
+
+> 정기/수시 보고의 전송 이력을 일괄 조회할 수 있습니다.
+
+<div class="guide-cards">
+  <a href="/posts/lc0100/" class="guide-card">
+    <i class="fas fa-history"></i>
+    <span>보고 전송 내역 조회</span>
+  </a>
+</div>
+
+※ VICS 보고 전체 개요(개념·설치 안내·VICSR 메뉴 매핑표)는 **[VICS 보고 전송 가이드](/posts/vics-guide/)**를 참고해주세요.
 
 ---
 

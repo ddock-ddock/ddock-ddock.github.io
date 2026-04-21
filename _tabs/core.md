@@ -82,6 +82,8 @@ flowchart TD
         se0051["회사 정보"]
         my0001["마이페이지"]
         vs_settings["투자 심의 설정"]
+        se0201["사용자 코드 관리"]
+        se0202["사용자 정의 항목 관리"]
   end
  subgraph s2["결성"]
         fd0001["조합생성(개요등록)"]
@@ -186,6 +188,8 @@ flowchart TD
     click my0001 "{% post_url 2026-04-21-my0001 %}"
     click vs_settings "{% post_url 2026-04-21-vs-settings %}"
     click review_history "{% post_url 2026-04-21-review-history %}"
+    click se0201 "{% post_url 2026-04-21-se0201 %}"
+    click se0202 "{% post_url 2026-04-21-se0202 %}"
     click fd0001 "{% post_url 2024-07-04-fd0001 %}"
     click fd0010 "{% post_url 2024-07-04-fd0010 %}"
     click fd0011 "{% post_url 2024-07-04-fd0011 %}"

@@ -99,6 +99,7 @@ flowchart TD
         hr0007["조직도 관리"]
         se0051["회사 정보"]
         my0001["마이페이지"]
+        vs_settings["투자 심의 설정"]
   end
  subgraph s2["결성"]
         fd0001["조합생성(개요등록)"]
@@ -158,6 +159,7 @@ flowchart TD
     click hr0007 "{% post_url 2024-07-02-hr0007 %}"
     click se0051 "{% post_url 2026-04-21-se0051 %}"
     click my0001 "{% post_url 2026-04-21-my0001 %}"
+    click vs_settings "{% post_url 2026-04-21-vs-settings %}"
     click br0007a "{% post_url 2026-04-21-br0007a %}"
     click br0011a "{% post_url 2026-04-21-br0011a %}"
     click fd0001 "{% post_url 2024-07-04-fd0001 %}"
@@ -217,6 +219,10 @@ flowchart TD
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/se0003/" class="mx-2">역할/권한 관리</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/vs-settings/" class="mx-2">투자 심의 설정</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>

@@ -94,6 +94,7 @@ mermaid: true
 ```mermaid
 flowchart TD
  subgraph s1["투자심의"]
+        review_history["회사별 검토 이력 기록"]
         wr0003["주간회의(딜소싱)"]
         vs0003["투자정보입력"]
         vs0006["투자심의(표결)"]
@@ -126,6 +127,7 @@ flowchart TD
  subgraph s6["LP보고"]
         lp0600["담당심사역 이력"]
   end
+    review_history --> wr0003
     wr0003 --> vs0003
     vs0003 --> vs0006
     vs0006 --> ed0001a
@@ -146,6 +148,7 @@ flowchart TD
     sa0002 -. 선택적 .-> sa0003
     vs0031 --> lp0600
 
+    click review_history "{% post_url 2026-04-21-review-history %}"
     click wr0003 "{% post_url 2024-07-09-wr0003 %}"
     click vs0003 "{% post_url 2024-07-10-vs0003 %}"
     click vs0006 "{% post_url 2024-07-11-vs0006 %}"
@@ -189,6 +192,10 @@ flowchart TD
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/vs_guide/" class="mx-2"><strong>투자심의 이용 가이드 (전체 프로세스)</strong></a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/review-history/" class="mx-2">회사별 검토 이력 기록</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>

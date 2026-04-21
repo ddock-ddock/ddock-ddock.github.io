@@ -100,6 +100,7 @@ flowchart TD
         ed0001a["계약품의(전자결재)"]
         oi0003["투자 운용지시(전자결재)"]
         vs0009["투자완료(첨부파일등록)"]
+        stworks_invite["STworks 가입 요청"]
   end
  subgraph s2["포트폴리오 관리"]
         pm0100["포트폴리오 정보"]
@@ -109,7 +110,9 @@ flowchart TD
  subgraph s3["영업보고"]
         br0009["심사역 의견 작성"]
         br0007["영업보고 검수"]
+        br0007a["포트폴리오 정보 반영"]
         br0011["영업보고서 생성"]
+        br0011a["첨부파일 일괄 다운로드"]
   end
  subgraph s4["회수(EXIT)"]
         ex0001["회수위원회(표결)"]
@@ -128,6 +131,7 @@ flowchart TD
     vs0006 --> ed0001a
     ed0001a --> oi0003
     oi0003 --> vs0009
+    vs0009 --> stworks_invite
     vs0009 --> pm0100
     pm0100 --> pm0300
     pm0100 --> br0009
@@ -135,6 +139,8 @@ flowchart TD
     vs0009 -. 선택적 .-> sa0002
     br0009 --> br0007
     br0007 --> br0011
+    br0007 --> br0007a
+    br0011 --> br0011a
     ex0001 --> oi0001
     oi0001 --> ex0007
     sa0002 -. 선택적 .-> sa0003
@@ -150,7 +156,10 @@ flowchart TD
     click vs0031 "{% post_url 2025-04-03-vs0031 %}"
     click br0009 "{% post_url 2024-08-26-br0009 %}"
     click br0007 "{% post_url 2024-08-25-br0007 %}"
+    click br0007a "{% post_url 2026-04-21-br0007a %}"
     click br0011 "{% post_url 2024-08-27-br0011 %}"
+    click br0011a "{% post_url 2026-04-21-br0011a %}"
+    click stworks_invite "{% post_url 2026-04-21-stworks-invite %}"
     click ex0001 "{% post_url 2024-07-18-ex0001 %}"
     click oi0001 "{% post_url 2024-07-19-oi0001 %}"
     click ex0007 "{% post_url 2024-07-20-ex0007 %}"
@@ -204,6 +213,10 @@ flowchart TD
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/vs0009/" class="mx-2">투자완료 첨부파일</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/stworks-invite/" class="mx-2">STworks 가입 요청 (포트폴리오 전환)</a>
       </li>
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
@@ -281,7 +294,15 @@ flowchart TD
       </li>
       <li class="list-group-item">
         <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/br0007a/" class="mx-2">포트폴리오 정보 반영</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
         <a href="/posts/br0011/" class="mx-2">영업보고서 생성</a>
+      </li>
+      <li class="list-group-item">
+        <i class="far fa-file-alt fa-fw"></i>
+        <a href="/posts/br0011a/" class="mx-2">영업보고 첨부파일 일괄 다운로드</a>
       </li>
     </ul>
   </div>
